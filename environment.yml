@@ -10,7 +10,7 @@ dependencies:
   - anyio=3.5.0=py310haa95532_0
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py310h2bbff1b_0
-  - arrow-cpp=11.0.0=ha81ea56_2
+  - arrow-cpp
   - asciitree=0.3.3=py_2
   - asttokens=2.0.5=pyhd3eb1b0_0
   - attrs=22.1.0=py310haa95532_0
@@ -101,8 +101,7 @@ dependencies:
   - jxrlib=1.1=he774522_2
   - kiwisolver=1.4.4=py310hd77b12b_0
   - kmodes=0.12.2=py310haa95532_0
-  - krb5=1.21.2=heb0366b_0
-  - lame=3.100=hcfcfb64_1003
+  - krb5
   - lazy_loader=0.2=py310haa95532_0
   - lcms2=2.12=h83e58a3_0
   - lerc=3.0=hd77b12b_0
@@ -111,25 +110,24 @@ dependencies:
   - libbrotlicommon=1.0.9=h2bbff1b_7
   - libbrotlidec=1.0.9=h2bbff1b_7
   - libbrotlienc=1.0.9=h2bbff1b_7
-  - libclang13=14.0.6=default_h8e68704_1
   - libcurl=8.4.0=h86230a5_1
   - libdeflate=1.17=h2bbff1b_0
   - libevent=2.1.12=h56d1f94_1
   - libffi=3.4.4=hd77b12b_0
-  - libflac=1.4.3=h63175ca_0
+  - libflac
   - libiconv=1.16=h2bbff1b_2
-  - libogg=1.3.4=h8ffe710_1
+  - libogg
   - libopus=1.3.1=h8ffe710_1
   - libpng=1.6.39=h8cc25b3_0
   - libpq=12.15=h906ac69_0
   - libprotobuf=3.20.3=h23ce68f_0
-  - librosa=0.10.1=pyhd8ed1ab_0
-  - libsndfile=1.2.2=h81429f1_1
+  - librosa
+  - libsndfile
   - libsodium=1.0.18=h62dcd97_0
   - libssh2=1.10.0=he2ea4bf_2
   - libthrift=0.15.0=h4364b78_2
   - libtiff=4.5.0=h6c2663c_2
-  - libvorbis=1.3.7=h0e60522_0
+  - libvorbis
   - libwebp=1.2.4=hbc33d0d_1
   - libwebp-base=1.2.4=h2bbff1b_1
   - libxml2=2.10.4=h0ad7f3c_1
@@ -138,7 +136,6 @@ dependencies:
   - locket=1.0.0=py310haa95532_0
   - lxml=4.9.2=py310h2bbff1b_0
   - lz4-c=1.9.4=h2bbff1b_0
-  - mariadb-connector-c=3.3.8=hccdfaae_0
   - markupsafe=2.1.1=py310h2bbff1b_0
   - matplotlib-base=3.7.1=py310h4ed8f06_1
   - matplotlib-inline=0.1.6=py310haa95532_0
@@ -147,7 +144,6 @@ dependencies:
   - mkl-service=2.4.0=py310h2bbff1b_1
   - mkl_fft=1.3.6=py310h4ed8f06_1
   - mkl_random=1.2.2=py310h4ed8f06_1
-  - mpg123=1.32.3=h63175ca_0
   - msgpack-python=1.0.3=py310h59b6b97_0
   - munkres=1.1.4=py_0
   - nbclassic=0.5.5=py310haa95532_0
@@ -158,12 +154,11 @@ dependencies:
   - networkx=3.1=py310haa95532_0
   - notebook=6.5.4=py310haa95532_1
   - notebook-shim=0.2.2=py310haa95532_0
-  - numba=0.57.1=py310h19bcfe9_0
+  - numba
   - numcodecs=0.11.0=py310hd77b12b_0
   - numexpr=2.8.4=py310h2cd9be0_1
-  - numpy-base=1.24.3=py310h65a83cf_1
   - openjpeg=2.4.0=h4fc8c34_0
-  - openssl=3.2.0=hcfcfb64_1
+  - openssl
   - orc=1.7.4=h623e30f_1
   - packaging=23.0=py310haa95532_0
   - pandas=2.0.3=py310h4ed8f06_0
@@ -222,9 +217,9 @@ dependencies:
   - snappy=1.1.9=h6c2663c_0
   - sniffio=1.2.0=py310haa95532_1
   - soupsieve=2.4=py310haa95532_0
-  - soxr=0.1.3=hcfcfb64_3
-  - soxr-python=0.3.7=py310h3e78b6c_0
-  - sqlalchemy=1.4.49=py310h8d17308_1
+  - soxr
+  - soxr-python
+  - sqlalchemy
   - sqlite=3.41.2=h2bbff1b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
   - tbb=2021.8.0=h59b6b97_0
@@ -241,12 +236,8 @@ dependencies:
   - typing-extensions=4.7.1=py310haa95532_0
   - typing_extensions=4.7.1=py310haa95532_0
   - tzdata=2023c=h04d1e81_0
-  - ucrt=10.0.22621.0=h57928b3_0
   - urllib3=1.26.16=py310haa95532_0
   - utf8proc=2.6.1=h2bbff1b_0
-  - vc=14.2=h21ff451_1
-  - vc14_runtime=14.38.33130=h82b7239_18
-  - vs2015_runtime=14.38.33130=hcb4865c_18
   - wcwidth=0.2.5=pyhd3eb1b0_0
   - webencodings=0.5.1=py310haa95532_1
   - websocket-client=0.58.0=py310haa95532_4
@@ -303,7 +294,6 @@ dependencies:
       - jupyter-nbextensions-configurator==0.6.3
       - keras==2.10.0
       - keras-preprocessing==1.1.2
-      - libclang==16.0.6
       - linkify-it-py==2.0.2
       - llvmlite==0.40.1
       - magicgui==0.7.3
@@ -382,4 +372,4 @@ dependencies:
       - wrapt==1.15.0
       - xarray==2023.8.0
       - xyzservices==2023.7.0
-prefix: D:\development\Anaconda3\envs\py3.10_tf2.10
+prefix: D:\development\Anaconda\envs\py3.10_tf2.10
