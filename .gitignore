@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+data
+utils
+california_housing.*
+colab_material.*
+**/*.joblib
+**/*.pkl
+**/*.csv
+**/*.feather
+.idea
+Advanced_scikit_learn_course_full.ipynb
